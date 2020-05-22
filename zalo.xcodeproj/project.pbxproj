@@ -13,6 +13,14 @@
 		31052589247758D500207254 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31052587247758D500207254 /* Main.storyboard */; };
 		3105258B247758D600207254 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3105258A247758D600207254 /* Assets.xcassets */; };
 		3105258E247758D600207254 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3105258C247758D600207254 /* LaunchScreen.storyboard */; };
+		3105259724775E6300207254 /* MainCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105259524775E6300207254 /* MainCellTableViewCell.swift */; };
+		3105259824775E6300207254 /* MainCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3105259624775E6300207254 /* MainCellTableViewCell.xib */; };
+		3105259A24776C7A00207254 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105259924776C7A00207254 /* Person.swift */; };
+		3105259C24776CC900207254 /* PersonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105259B24776CC900207254 /* PersonData.swift */; };
+		310525A92477727D00207254 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310525A72477727D00207254 /* DataViewController.swift */; };
+		310525AA2477727D00207254 /* DataViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 310525A82477727D00207254 /* DataViewController.xib */; };
+		310525AD247773A400207254 /* DanhBaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310525AB247773A400207254 /* DanhBaTableViewCell.swift */; };
+		310525AE247773A400207254 /* DanhBaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 310525AC247773A400207254 /* DanhBaTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,14 @@
 		3105258A247758D600207254 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3105258D247758D600207254 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3105258F247758D600207254 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3105259524775E6300207254 /* MainCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCellTableViewCell.swift; sourceTree = "<group>"; };
+		3105259624775E6300207254 /* MainCellTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainCellTableViewCell.xib; sourceTree = "<group>"; };
+		3105259924776C7A00207254 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		3105259B24776CC900207254 /* PersonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonData.swift; sourceTree = "<group>"; };
+		310525A72477727D00207254 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		310525A82477727D00207254 /* DataViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DataViewController.xib; sourceTree = "<group>"; };
+		310525AB247773A400207254 /* DanhBaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DanhBaTableViewCell.swift; sourceTree = "<group>"; };
+		310525AC247773A400207254 /* DanhBaTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DanhBaTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +75,18 @@
 				31052581247758D500207254 /* AppDelegate.swift */,
 				31052583247758D500207254 /* SceneDelegate.swift */,
 				31052585247758D500207254 /* ViewController.swift */,
+				3105259524775E6300207254 /* MainCellTableViewCell.swift */,
+				3105259624775E6300207254 /* MainCellTableViewCell.xib */,
 				31052587247758D500207254 /* Main.storyboard */,
 				3105258A247758D600207254 /* Assets.xcassets */,
 				3105258C247758D600207254 /* LaunchScreen.storyboard */,
 				3105258F247758D600207254 /* Info.plist */,
+				3105259924776C7A00207254 /* Person.swift */,
+				3105259B24776CC900207254 /* PersonData.swift */,
+				310525A72477727D00207254 /* DataViewController.swift */,
+				310525A82477727D00207254 /* DataViewController.xib */,
+				310525AB247773A400207254 /* DanhBaTableViewCell.swift */,
+				310525AC247773A400207254 /* DanhBaTableViewCell.xib */,
 			);
 			path = zalo;
 			sourceTree = "<group>";
@@ -126,8 +150,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3105258E247758D600207254 /* LaunchScreen.storyboard in Resources */,
+				310525AA2477727D00207254 /* DataViewController.xib in Resources */,
 				3105258B247758D600207254 /* Assets.xcassets in Resources */,
+				3105259824775E6300207254 /* MainCellTableViewCell.xib in Resources */,
 				31052589247758D500207254 /* Main.storyboard in Resources */,
+				310525AE247773A400207254 /* DanhBaTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +165,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3105259C24776CC900207254 /* PersonData.swift in Sources */,
+				310525A92477727D00207254 /* DataViewController.swift in Sources */,
+				3105259A24776C7A00207254 /* Person.swift in Sources */,
 				31052586247758D500207254 /* ViewController.swift in Sources */,
 				31052582247758D500207254 /* AppDelegate.swift in Sources */,
+				310525AD247773A400207254 /* DanhBaTableViewCell.swift in Sources */,
+				3105259724775E6300207254 /* MainCellTableViewCell.swift in Sources */,
 				31052584247758D500207254 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
